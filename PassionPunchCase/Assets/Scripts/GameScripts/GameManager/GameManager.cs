@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
 
     public void GunFiring(int bulletCount)
     {
-        //intten void'e çek
+        
         if (OnGunFiring!=null)
         {
             OnGunFiring(bulletCount);
