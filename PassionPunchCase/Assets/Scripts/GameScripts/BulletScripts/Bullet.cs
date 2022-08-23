@@ -9,10 +9,12 @@ public class Bullet : MonoBehaviour
     [SerializeField] private float _bulletSpeed;
     public Material mat;
 
+   
 
 
     private void Start()
     {
+        mat.color = Color.grey;
         _rb = GetComponent<Rigidbody>();
         StartCoroutine(BulletLifeTime());
         Vector3 charfrwd = Character.Instance.transform.forward;

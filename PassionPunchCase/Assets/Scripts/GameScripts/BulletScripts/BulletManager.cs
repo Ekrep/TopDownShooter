@@ -46,6 +46,10 @@ public class BulletManager : MonoBehaviour
     {
         GameManager.OnAddedBigBullet -= GameManager_OnAddedBigBullet;
         GameManager.OnRemovedBigBullet -= GameManager_OnRemovedBigBullet;
+        BulletFireFunction -= RemoveBigBullet;
+        BulletFireFunction -= AddBigBullet;
+        BulletFireFunction -= RemoveRedBullet;
+        BulletFireFunction -= AddRedBullet;
     }
 
     public delegate void BulletFunction(GameObject go);
