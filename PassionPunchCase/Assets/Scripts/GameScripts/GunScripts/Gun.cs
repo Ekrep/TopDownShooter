@@ -65,12 +65,13 @@ public class Gun : MonoBehaviour
         if (!_isTriggerBreaked)
         {
            
-            GameManager.Instance.GunFiring(_firedBulletCount);
+           
             for (int i = 0; i < 4; i++)
             {
                 _firedBulletCount++;
                 Instantiate(_bullet, _bulletSpawnPoint.position, Quaternion.identity);
             }
+             GameManager.Instance.GunFiring(_firedBulletCount);
             
             
         }
