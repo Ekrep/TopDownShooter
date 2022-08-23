@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: aeb5c9c7c2d5f7d42a4a178b7f52690d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _fpsSettings: {fileID: 11400000, guid: b904f5f1c779b0140832ef3e41167a3c, type: 2}
+  - _player: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
